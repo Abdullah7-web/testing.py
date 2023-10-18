@@ -21,3 +21,4 @@ df.info()
 
 fig = px.treemap(df, path=["who", "survived"])
 st.plotly_chart(fig)
+
